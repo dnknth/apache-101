@@ -6,7 +6,7 @@ I've used Apache for more than 20 years, both professionally and for hobby proje
 
 ## Contents
 
-* The [first post](basic-apache-configuration.md) explains the basic  configuration layout and required modules
+* The [first post](basic-configuration.md) explains the basic  configuration layout and required modules
 * next we go into [security and SSL](security.md),
 * [part 3](static-resources.md) dicusses techniques to efficiently serve static content,
 * [part 4](pretty-directory-listings.md) adds some eye candy, and
