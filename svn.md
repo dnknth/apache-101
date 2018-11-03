@@ -358,11 +358,11 @@ Now, activate the styling in your virtual host like so:
     </Location>
 ```
 
-After reloading the Apache config, browse to your SVN repository. It should look very much like a [directory listing](pretty-directory-listings.md) with popup basic-configuration.md. Hope you like it.
+After reloading the Apache config, browse to your SVN repository. It should look very much like a [directory listing](pretty-directory-listings.md) with popup images. Hope you like it.
 
 # Serving low-traffic sites from SVN
 
-For low-traffic sites, it is tempting to shorten the normal edit-commit-build-deploy cycle by serving content straight from SVN. Disclaimer: Everybody advises against this. But for static sites with little traffic it does not hurt.
+For low-traffic sites, it is tempting to shorten the normal edit-commit-build-deploy cycle by serving content straight from SVN. Disclaimer: Everybody advises against this. But for static sites with low traffic it does work.
 
 Let's say you keep your source code in `/svn/www.example.org` and the main page is `index.html`.
 
@@ -407,4 +407,4 @@ Next, put this in `sites-available/www.example.org` and enable it:
     </VirtualHost>
 ```
 
-Now, as an exercise, add TLS to the config as explained in the [security post](security.md).
+Now, as an exercise, add TLS to the config as explained in [security](security.md).
